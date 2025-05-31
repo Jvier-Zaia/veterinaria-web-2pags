@@ -1,0 +1,243 @@
+
+  
+ * {
+  font-family: 'Raleway', sans-serif;
+}
+body{
+    background: #3d9171;
+background: linear-gradient(0deg, rgb(43, 184, 130) 0%, rgb(169, 250, 189) 100%);
+}
+    /* Hero Carousel Height */
+    .carousel-inner {
+      height: 450px;
+    }
+    .carousel-item img {
+      object-fit: cover;
+      height: 450px;
+      width: 100%;
+    }
+    /* Texto sobre el carousel */
+    .carousel-caption {
+      background: rgba(9, 122, 56, 0.5);
+      border-radius: 8px;
+    }
+    /* Sección imagen + dirección */
+    .location-img {
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    /* Servicios */
+    .service-icon {
+      width: 40px;
+      height: 40px;
+      fill: #27f3af;
+      margin-bottom: 15px;
+    }
+    /* Doctores */
+    .doctors img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+    }
+    .doctor-card {
+      text-align: center;
+      padding: 1rem;
+    }
+    .doctor-card a {
+      color: #fcfffe;
+      text-decoration: none;
+    }
+    .doctor-card a:hover {
+      text-decoration: underline;
+    }
+.container-fluid{
+background-color: #baf7da;
+width: 600px ;
+}
+
+
+.custom-navbar{
+background-color: #8febbe;
+
+
+
+.nav-link {
+  align-items: start;
+  font-size: 20px;
+  color: #099e7e;
+  font-weight: bold;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #099e7e;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #066d5b; /* un tono más oscuro */
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+}
+.find-us{ background-color: #98e2d7; border-radius:25px ; -webkit-border-radius:25px ; -moz-border-radius:25px ; -ms-border-radius:25px ; -o-border-radius:25px ;
+width:210vh ;
+height: 350px;
+align-items: center;
+padding-top: 30px;
+display: flex;
+flex-direction: column;
+position: static;
+box-shadow: -2px 21px 36px 1px rgba(0,0,0,0.53);
+-webkit-box-shadow: -2px 21px 36px 1px rgba(0,0,0,0.53);
+-moz-box-shadow: -2px 21px 36px 1px rgba(0,0,0,0.53);
+}
+.find-us img{ 
+width: 150vh;
+
+
+align-items: center;
+
+}
+.find-us p{
+text-align: center;
+color: #005748;
+
+}
+.find-us h2{
+padding-top:20px ;
+text-align: center;
+color: #066d5b;
+font-weight: bold;
+}
+.find-us a{
+color: #16b680;
+}
+
+.services{ width: 400vh; background-color: #98e2d7; height: 400px; border-radius:25px ; -webkit-border-radius:25px ; -moz-border-radius:25px ; -ms-border-radius:25px ; -o-border-radius:25px ;
+height: fit-content;
+box-shadow: -2px 21px 36px 1px rgba(0,0,0,0.53);
+-webkit-box-shadow: -2px 21px 36px 1px rgba(0,0,0,0.53);
+-moz-box-shadow: -2px 21px 36px 1px rgba(0,0,0,0.53);
+}
+
+.card-customize{
+background-color:  #5eb3a6;
+position: -webkit-sticky;
+
+
+border: 6px inset #c7ede0;
+}
+.card-customize h5{
+font-weight: bold;
+color: #63fad9;
+font-size: 25px;
+}
+.btn{ border-radius:25px ; -webkit-border-radius:25px ; -moz-border-radius:25px ; -ms-border-radius:25px ; -o-border-radius:25px ;
+background-color: #16b680;
+position: fixed;
+}
+.title-card{
+font-size: 45px;
+color: #007a60;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: start;
+  padding-left: 60px;
+  
+}
+ul.ul-custom li {
+  list-style-type: none;
+  padding: 8px 0;
+  font-size: 16px;
+  
+  position: relative;
+  padding-left: 24px;
+}
+
+ul.ul-custom li::before {
+  content: "💚";
+  position: absolute;
+  left: 0;
+}
+@media (max-width: 800px) {
+  .container-fluid,
+  .find-us,
+  .services {
+    width: 98vw;
+    max-width: 100%;
+    min-width: unset;
+    padding: 0 8px;
+    box-sizing: border-box;
+  }
+  .find-us {
+    min-height: 200px;
+    height: auto;
+    flex-direction: column;
+    padding-top: 16px;
+    box-shadow: -2px 10px 18px 1px rgba(0,0,0,0.33);
+  }
+  .find-us img {
+    width: 92vw;
+    max-width: 320px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .services {
+    padding: 10px 0;
+    box-sizing: border-box;
+  }
+  .doctors img {
+    width: 90px;
+    height: 90px;
+  }
+  .doctor-card {
+    padding: 0.5rem;
+  }
+  .title-card {
+    font-size: 28px;
+  }
+  ul {
+    padding-left: 24px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container-fluid,
+  .find-us,
+  .services {
+    width: 100vw;
+    max-width: 100%;
+    min-width: unset;
+    padding: 0 2vw;
+  }
+  
+  .doctors img {
+    width: 56px;
+    height: 56px;
+  }
+  .title-card {
+    font-size: 16px;
+  }
+  ul {
+    padding-left: 10px;
+  }
+  ul.ul-custom li {
+    font-size: 13px;
+    padding-left: 18px;
+  }
+}
