@@ -104,3 +104,83 @@ button:hover{
  background: rgba(54, 250, 153, 1)
 
 }
+@media (max-width: 650px) {
+.container-fluid{
+background-color: #baf7da;
+width: 100px ;
+}
+
+
+
+
+  .turnos {
+  background-color: #099e7e;
+  margin: 60px auto 0 auto;   /* 60px de espacio arriba, centrado horizontal */
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  border-radius: 25px;
+  box-shadow: -2px 21px 36px 1px rgba(0,0,0,0.53);
+}
+.turnos h2{
+text-align: center;
+padding-top: 40px;
+font-weight: bold;
+color: #8febbe;
+}
+.email{
+display: flex;
+    align-items: center;
+    gap: 10px;
+    position:inherit;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 190px;
+}
+input{
+background-color: #8febbe;
+width: 100px;
+height: 50px;   
+}
+.calendario{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: inherit;
+    margin-top: 20px;
+    margin-left: 140px;
+    
+
+
+}
+button{
+align-items: center;
+display: flex;
+flex-direction: column;
+margin-left: 115px;
+margin-top: 20px;
+margin-bottom: 30px;
+width: 150px;
+padding-top: 5px;
+padding-bottom: 5px;
+color:#505739;
+  border-color:#333029;
+  font-size: large;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius:15px;
+  box-shadow: 0px 1px 0px 0px #1c1b18;
+  text-shadow: 0px 1px 0px #ffffff;
+  background:rgba(160, 231, 184, 1);}
+button:hover{
+ background: rgba(54, 250, 153, 1)
+
+
+
+
+
+
+
+}}

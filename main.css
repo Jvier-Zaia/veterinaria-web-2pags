@@ -92,7 +92,7 @@ background-color: #8febbe;
 }
 }
 .find-us{ background-color: #98e2d7; border-radius:25px ; -webkit-border-radius:25px ; -moz-border-radius:25px ; -ms-border-radius:25px ; -o-border-radius:25px ;
-width:210vh ;
+width:210vm ;
 height: 350px;
 align-items: center;
 padding-top: 30px;
@@ -125,7 +125,7 @@ font-weight: bold;
 color: #16b680;
 }
 
-.services{ width: 400vh; background-color: #98e2d7; height: 400px; border-radius:25px ; -webkit-border-radius:25px ; -moz-border-radius:25px ; -ms-border-radius:25px ; -o-border-radius:25px ;
+.services{ width: 400vm; background-color: #98e2d7; height: 400px; border-radius:25px ; -webkit-border-radius:25px ; -moz-border-radius:25px ; -ms-border-radius:25px ; -o-border-radius:25px ;
 height: fit-content;
 box-shadow: -2px 21px 36px 1px rgba(0,0,0,0.53);
 -webkit-box-shadow: -2px 21px 36px 1px rgba(0,0,0,0.53);
